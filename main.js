@@ -22,3 +22,20 @@ buttonClose.addEventListener("click",
         burgerINVisible.classList.remove("active");
     }
 );
+
+//chiusura automatica
+
+let windows
+
+window.addEventListener("resize", 
+    function() {
+        let burgerINVisible = document.querySelector(".hamburger-menu");
+
+        burgerINVisible.classList.remove("active");    
+    },
+);
+
+
+
+
+
