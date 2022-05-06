@@ -11,3 +11,14 @@ buttonBurger.addEventListener("click",
 );
 
 
+//chiusura burger menù
+
+const buttonClose = document.querySelector(".fa-times");
+
+buttonClose.addEventListener("click",
+    function () {
+        let burgerINVisible = document.querySelector(".hamburger-menu");
+
+        burgerINVisible.classList.remove("active");
+    }
+);
