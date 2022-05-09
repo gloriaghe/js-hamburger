@@ -1,6 +1,6 @@
 //click burger menù
 
-const buttonBurger = document.querySelector(".fa-bars");
+const buttonBurger = document.querySelector(".header-right>a");
 
 buttonBurger.addEventListener("click",
     function () {
@@ -13,7 +13,7 @@ buttonBurger.addEventListener("click",
 
 //chiusura burger menù
 
-const buttonClose = document.querySelector(".fa-times");
+const buttonClose = document.querySelector(".hamburger-menu>a");
 
 buttonClose.addEventListener("click",
     function () {
